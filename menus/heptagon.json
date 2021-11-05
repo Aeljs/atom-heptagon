@@ -1,0 +1,26 @@
+{
+  "context-menu": {
+    "atom-text-editor": [
+      {
+        "label": "Toggle heptagon",
+        "command": "heptagon:toggle"
+      }
+    ]
+  },
+  "menu": [
+    {
+      "label": "Packages",
+      "submenu": [
+        {
+          "label": "heptagon",
+          "submenu": [
+            {
+              "label": "Toggle",
+              "command": "heptagon:toggle"
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}
